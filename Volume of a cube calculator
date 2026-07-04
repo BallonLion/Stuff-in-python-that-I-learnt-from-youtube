@@ -1,0 +1,6 @@
+Length = float(input("Enter the length of your rectangle:"))
+Width = float(input("Enter the width of your rectangle:"))
+Height = float(input("Enter the height of your rectangle:"))
+Volume = Length * Width * Height
+
+print (f"The Volume is:{Volume}")
