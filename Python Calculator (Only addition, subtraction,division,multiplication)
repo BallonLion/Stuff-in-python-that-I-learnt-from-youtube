@@ -1,0 +1,18 @@
+operation = input("Enter what operation you're using(+ - * /):")
+num1 = float(input("Enter the 1st number:"))
+num2 = float(input("Enter the 2nd number:"))
+
+if operation == "+":
+    result = num1 + num2
+    print(round(result))
+elif operation == "-":
+    result = num1 - num2
+    print(round(result))
+elif operation == "*":
+    result = num1*num2
+    print(round(result))
+elif operation == "/":
+    result = num1/num2
+    print(round(result))
+else:
+    print(f"{operation} is not a valid operator")
